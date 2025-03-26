@@ -41,5 +41,5 @@ jobs:
         output_location: "dist"
         app_build_command: "pnpm install --frozen-lockfile && pnpm run build"
       env:
-        INPUT_APP_BUILD_COMMAND: "pnpm install --frozen-lockfile && pnpm run build"
+        SKIP_APP_BUILD: true
         NODE_VERSION: 22.13.0
